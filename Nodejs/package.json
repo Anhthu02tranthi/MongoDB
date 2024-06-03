@@ -1,0 +1,18 @@
+{
+    "name": "node-examples",
+    "version": "1.0.0",
+    "description": "Simple Node Examples",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index"
+    },
+    "author": "FPTU",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.19.2",
+        "express-generator": "^4.16.1",
+        "morgan": "^1.10.0"
+    }
+}
