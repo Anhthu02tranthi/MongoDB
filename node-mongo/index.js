@@ -4,6 +4,7 @@ const assert = require('assert');
 const url = 'mongodb://localhost:27017/';
 const dbname = 'conFusion';
 const dboper = require('./operations');
+
 MongoClient.connect(url, (err, client) => {
 
 assert.equal(err,null);
@@ -95,7 +96,7 @@ dboper.insertDocument(db, { name: "Vadonut", description: "Test"},
     .catch((err) => console.log(err));
     
 
-});
-});
-});
+            });
+        });
+    });
 });
